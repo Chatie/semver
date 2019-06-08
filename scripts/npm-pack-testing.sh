@@ -14,7 +14,9 @@ npm init -y
 npm install --production \
   *-*.*.*.tgz \
   @chatie/tsconfig \
-  tstest
+  tstest \
+  shelljs \
+  @types/shelljs
 
 ./node_modules/.bin/tsc \
   --lib esnext \
