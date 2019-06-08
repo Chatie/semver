@@ -24,11 +24,11 @@ jobs:
 
     - stage: test
       script:
-          - node --version
-          - npm --version
-          - echo "Testing Started ..."
-          - npm test
-          - echo "Testing Finished"
+        - node --version
+        - npm --version
+        - echo "Testing Started ..."
+        - npm test
+        - echo "Testing Finished"
 
     - stage: pack
       script:
