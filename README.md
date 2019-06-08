@@ -39,7 +39,10 @@ See also: <https://github.com/Chatie/wechaty/issues/905>
 
 ### v0.3 (master)
 
-1. WIP...
+
+### v0.2 June 09, 2019
+
+1. Beta Release
 
 ### v0.0.1 June 08, 2019
 
