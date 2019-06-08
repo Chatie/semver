@@ -1,10 +1,11 @@
 /**
  * Author: Huan LI <zixia@zixia.net>
- * https://github.com/zixia
+ * https://github.com/huan
  * License: Apache-2.0
  */
 import {
   SemVer as SemVerBase,
+  // eslint-disable-next-line no-unused-vars
   Options as SemVerOptions,
   minor,
 }                           from 'semver'
