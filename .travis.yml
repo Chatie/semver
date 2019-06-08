@@ -21,7 +21,6 @@ install:
 
 jobs:
   include:
-
     - stage: test
       script:
         - node --version
