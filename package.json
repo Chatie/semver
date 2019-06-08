@@ -8,12 +8,12 @@
     "test": "tests"
   },
   "dependencies": {
+    "@types/semver": "^6.0.0",
     "semver": "^6.1.1"
   },
   "devDependencies": {
     "@chatie/eslint-config": "^0.3.2",
     "@chatie/tsconfig": "^0.4.5",
-    "@types/semver": "^6.0.0",
     "@types/shelljs": "^0.8.5",
     "git-scripts": "^0.2.1",
     "read-pkg-up": "^6.0.0",
