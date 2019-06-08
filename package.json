@@ -1,0 +1,59 @@
+{
+  "name": "@chatie/semver",
+  "version": "0.0.1",
+  "description": "The Enhanced Semantic Versioner for NPM",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "semver": "^6.1.1"
+  },
+  "devDependencies": {
+    "@chatie/eslint-config": "^0.3.2",
+    "@chatie/tsconfig": "^0.4.5",
+    "@types/semver": "^6.0.0",
+    "git-scripts": "^0.2.1",
+    "read-pkg-up": "^6.0.0",
+    "shx": "^0.3.2",
+    "tstest": "^0.3.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "shx rm -fr dist/*",
+    "dist": "npm run clean && npm run build",
+    "pack": "npm pack",
+    "lint": "npm run lint:es && npm run lint:ts",
+    "lint:es": "eslint src/**/*.ts tests/**/*.ts",
+    "lint:ts": "tsc --noEmit",
+    "test:pack": "bash -x scripts/npm-pack-testing.sh",
+    "test": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\""
+  },
+  "bin": {
+    "semver-is-prod": "dist/bin/semver-is-prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chatie/semver.git"
+  },
+  "keywords": [
+    "semver",
+    "isprod"
+  ],
+  "author": "Huan LI <zixia@zixia.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Chatie/semver/issues"
+  },
+  "homepage": "https://github.com/Chatie/semver#readme",
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "./scripts/pre-push.sh"
+    }
+  }
+}
