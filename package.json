@@ -1,6 +1,6 @@
 {
   "name": "@chatie/semver",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "The Enhanced Semantic Versioner for NPM",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
