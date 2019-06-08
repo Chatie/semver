@@ -8,7 +8,7 @@ The Enhanced Semantic Versioner for NPM
 
 ## USAGE
 
-This module is a wrapper of the NPM module [semver](https://www.npmjs.com/package/semver), it provide some additional features:
+This module is a wrapper of the NPM module [semver](https://www.npmjs.com/package/semver), it provide following additional features:
 
 1. Two CLI utils that will identify whether this VERSION is for production(stable) or development(unstable):
     1. `semver-is-prod`
@@ -18,7 +18,7 @@ This module is a wrapper of the NPM module [semver](https://www.npmjs.com/packag
     1. `isDev(version: string): boolean`
 1. TypeScript support. It contains the typing definations already
 
-Please goto the original `semver` GitHub homepage to learn more from [semver](https://github.com/npm/node-semver)
+Learn more about the original `semver` from its GitHub homepage: [semver](https://github.com/npm/node-semver)
 
 ## BACKGROUND
 
