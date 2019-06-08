@@ -4,7 +4,7 @@
 [![npm (tag)](https://img.shields.io/npm/v/%40chatie/semver/next.svg)](https://www.npmjs.com/package/@chatie/semver?activeTab=versions)
 [![Build Status](https://travis-ci.com/Chatie/semver.svg?branch=master)](https://travis-ci.com/Chatie/semver)
 
-![Linux Kernel Numbering](chatie.github.io/semver/images/kernel-version-networknuts.png)
+![Linux Kernel Numbering](https://chatie.github.io/semver/images/kernel-version-networknuts.png)
 > Source: [How do Linux Versions Work?](https://networknuts.wordpress.com/2013/11/21/linux-kernel-numbering/)
 
 The Enhanced Semantic Versioner for NPM
