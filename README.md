@@ -1,4 +1,4 @@
-# semver
+# @chatie/semver
 
 [![NPM Version](https://badge.fury.io/js/%40chatie%2Fsemver.svg)](https://www.npmjs.com/package/@chatie/semver)
 [![npm (tag)](https://img.shields.io/npm/v/%40chatie/semver/next.svg)](https://www.npmjs.com/package/@chatie/semver?activeTab=versions)
@@ -10,9 +10,13 @@ The Enhanced Semantic Versioner for NPM
 
 This module is a wrapper of the NPM module [semver](https://www.npmjs.com/package/semver), it provide some additional features:
 
+1. Two CLI utils that will identify whether this VERSION is for production(stable) or development(unstable):
+    1. `semver-is-prod`
+    1. `semver-id-dev`
+1. Added two methods to `SemVer` class:
+    1. `isProd(version: string): boolean`
+    1. `isDev(version: string): boolean`
 1. TypeScript support. It contains the typing definations already
-1. A CLI util `semver-is-prod VERSION` that will identify whether this VERSION is for production(stable)
-1. Two API for `SemVer` class: `isProd(version)` and `isDev(version)`
 
 Please goto the original `semver` GitHub homepage to learn more from [semver](https://github.com/npm/node-semver)
 
@@ -40,8 +44,8 @@ See also: <https://github.com/Chatie/wechaty/issues/905>
 ### v0.0.1 June 08, 2019
 
 1. Wrap `semver`
-1. add new methods: `isProd`
-1. add new binary: `semver-is-prod`
+1. add new methods: `isProd` & `isDev`
+1. add new binary: `semver-is-prod` & `semver-is-dev`
 
 ## AUTHOR
 
