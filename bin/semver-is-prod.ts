@@ -15,9 +15,9 @@ const version = process.argv[2]
 const semver = new SemVer(version)
 
 if (semver.isProd) {
-  console.info(`YES: ${version} is production release`)
+  console.info(`YES: ${version} is production release.`)
   process.exit(0)
 } else {
-  console.info(`NO: ${version} is development release`)
+  console.info(`NO: ${version} is not a production release.`)
   process.exit(1)
 }
