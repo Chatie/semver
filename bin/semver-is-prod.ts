@@ -18,6 +18,6 @@ if (semver.isProd) {
   console.info(`YES: ${version} is production release.`)
   process.exit(0)
 } else {
-  console.info(`NO: ${version} is not a production release.`)
+  console.info(`NO: ${version} is NOT a production release.`)
   process.exit(1)
 }
