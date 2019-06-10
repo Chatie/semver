@@ -20,4 +20,3 @@ test('prod indentification in integration testing', async t => {
     t.equal(semVer.isProd, prod, `version/prod should match: ${version} -> ${prod}`)
   }
 })
-

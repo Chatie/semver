@@ -26,9 +26,7 @@ test('semver class prod/dev indentification', async (t: test.Test) => {
 test('semver-is-prod', async (t: test.Test) => {
   for (const [version, prod] of VERSION_PROD_LIST) {
     const isProd = exec(`npx semver-is-prod ${version} > /dev/null`).code === 0
-    const isDev = exec(`npx semver-is-dev ${version} > /dev/null`).code === 0
 
     t.equal(isProd, prod, `version/prod should match: ${version} -> ${prod}`)
-    t.equal(isDev, !prod, `version/dev should match: ${version} -> ${!prod}`)
   }
 })
