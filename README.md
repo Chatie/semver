@@ -42,6 +42,7 @@ See also: <https://github.com/Chatie/wechaty/issues/905>
 
 ### v0.3 (master)
 
+1. remove binary `semver-is-dev` because it might introduce bugs when using in devops. Use `semver-is-prod` instead.
 
 ### v0.2 June 09, 2019
 

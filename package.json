@@ -33,7 +33,6 @@
     "test": "blue-tape -r ts-node/register \"src/**/*.spec.ts\" \"src/*.spec.ts\" \"tests/*.spec.ts\" \"tests/**/*.spec.ts\""
   },
   "bin": {
-    "semver-is-dev": "dist/bin/semver-is-dev.js",
     "semver-is-prod": "dist/bin/semver-is-prod.js"
   },
   "repository": {
