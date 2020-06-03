@@ -19,7 +19,7 @@
     "read-pkg-up": "^6.0.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
-    "tstest": "^0.3.1"
+    "tstest": "^0.4.10"
   },
   "scripts": {
     "build": "tsc",
