@@ -16,7 +16,7 @@
     "@chatie/tsconfig": "^0.10.1",
     "@types/shelljs": "^0.8.5",
     "git-scripts": "^0.4.3",
-    "read-pkg-up": "^6.0.0",
+    "read-pkg-up": "^7.0.1",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
     "tstest": "^0.4.10"
