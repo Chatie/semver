@@ -12,7 +12,7 @@
     "semver": "^7.3.2"
   },
   "devDependencies": {
-    "@chatie/eslint-config": "^0.12.1",
+    "@chatie/eslint-config": "^0.16.2",
     "@chatie/tsconfig": "^0.10.1",
     "@types/shelljs": "^0.8.5",
     "git-scripts": "^0.4.3",
