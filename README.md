@@ -40,7 +40,7 @@ See also: <https://github.com/Chatie/wechaty/issues/905>
 
 ## CHANGELOG
 
-### v0.4 (master, 2025-04)
+### v0.6 (master, 2025-04)
 
 1. identify `2.0.0-alpha.1` as `isDev`
 
