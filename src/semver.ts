@@ -8,6 +8,7 @@ import {
   // eslint-disable-next-line no-unused-vars
   Options as SemVerOptions,
   minor,
+  prerelease,
 }                           from 'semver'
 
 export function prod (version: string | SemVer): boolean {
@@ -22,6 +23,7 @@ export function dev (version: string): boolean {
 }
 
 export class SemVer extends SemVerBase {
+
   public isProd:  boolean
   public isDev:   boolean
 
@@ -32,8 +34,15 @@ export class SemVer extends SemVerBase {
     super(version, optionsOrLoose)
 
     const minorVersion = minor(version)
+    const prereleaseVersion = prerelease(version)
 
-    this.isProd = minorVersion % 2 === 0 // production release
+    if (prereleaseVersion && prereleaseVersion.length > 0) {
+      this.isProd = false // pre-release version
+    } else {
+      this.isProd = minorVersion % 2 === 0 // production release
+    }
+
     this.isDev = !this.isProd
   }
+
 }
