@@ -40,7 +40,11 @@ See also: <https://github.com/Chatie/wechaty/issues/905>
 
 ## CHANGELOG
 
-### v0.3 (master)
+### v0.4 (master, 2025-04)
+
+1. identify `2.0.0-alpha.1` as `isDev`
+
+### v0.3 Oct 2021
 
 1. remove binary `semver-is-dev` because it might introduce bugs when using in devops. Use `semver-is-prod` instead.
 
